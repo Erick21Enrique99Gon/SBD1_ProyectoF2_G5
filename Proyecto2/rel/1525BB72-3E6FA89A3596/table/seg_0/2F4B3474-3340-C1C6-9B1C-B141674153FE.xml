@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F4B3474-3340-C1C6-9B1C-B141674153FE" name="Empleados">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>183667CB-EC28-9A86-AB1F-57FCB2AAD205</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="829AACAF-D320-7176-7228-E057289B6185">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>358C9D6D-EB49-1ACB-506B-459775F30CEC</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="D821FAC2-F08D-1E88-B61B-8AAB5A590887">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>1E5DE070-6C86-CCF4-A9BE-1E5CA93EE2F0</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="57117565-DDC1-B87A-E9E3-49E411747936">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>0CDF3F1E-903A-47E8-51B9-F8FAB85F7449</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="F993088F-D6E9-9024-B31F-894BE4CE90EF">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>BF890E73-2B4F-2BBF-9176-C4F0A4F052A6</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="91E58A3E-B411-276B-0120-85E3EB0C356C">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>DFF71125-77CD-A785-6926-8CF55DB86CDD</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="68169E47-0D80-DB9D-45E4-FF4F70FD8A03">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>74B2B1E1-1B3E-CCB9-A56F-A6D09A03D032</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacimiento" id="0EE0C2E8-B8FB-53B9-9F93-8952C6E27EA8">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>BB94CE10-0314-5FED-495A-C30A85831FFE</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contratado" id="FC58A70E-BA05-8550-7A8C-BA4D64C77D6C">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>FB03DA9A-BF17-6083-2511-09284B86A9C3</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="DFDCCB9F-7192-E428-C1CF-31D87D005231">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>8FCFF547-C91F-C329-32D4-9E2DA12A5AA2</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cargo_Cargo_ID" id="4E579F44-3385-5DEC-750F-892D85398BE6">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6205A8E-8FDE-B06B-9ED7-93EF23A387C9" referredColumn="09417BB7-DBC0-FE50-0F1A-FA5367557276"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27F5FF13-E0B4-5A3B-156F-14E01D47FB87" name="Empleados_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>E68CCC31-1A08-8FBD-6DAE-DB97EB67A859</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="829AACAF-D320-7176-7228-E057289B6185"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="237D438F-1581-FF56-4EF1-75B00523F63E" name="Empleados_Cargo_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>B2C4D221-B78A-3545-9593-79B7F49F004E</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E579F44-3385-5DEC-750F-892D85398BE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D4E849C-C9FC-7691-0EBC-1162B40DA627" name="Pasajero">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>F8F152D0-4DFF-2F06-1E9D-FC8827E8661F</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_pasaporte" id="14FF601F-32EA-794F-29C1-A34E043EC083">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>92D2B80F-0E61-BADD-57F4-E73008E639CC</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="5E3E054C-E20D-8CEE-4897-690489C000F3">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>AE76001A-8240-BF78-F672-7741FAFD372B</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="F582D7ED-A0DE-833C-BE0D-71FD73D81460">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>64279F2A-A4C4-B5B5-64BB-1F4C2398A9C9</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacimiento" id="06E19553-02C1-A1E3-3B13-E5620306C134">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>F66AF7B7-0781-7859-B52D-EABACFADC55B</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="B67A33D0-7412-95F8-0C0A-04A4359A0BD7">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>65904067-9904-A061-45C3-89BC72FD567C</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="96E0F80B-6AE8-A11E-6185-5DD32DABE1EE">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>10474778-0083-61EC-2093-232AA454577B</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3927EDFD-0B09-C497-E9B3-D616B96F4CC1" name="Pasajero_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>E84929D1-0964-6BA7-CCB3-117D7FFE58BB</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14FF601F-32EA-794F-29C1-A34E043EC083"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

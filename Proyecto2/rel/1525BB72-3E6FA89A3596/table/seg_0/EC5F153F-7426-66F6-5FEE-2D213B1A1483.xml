@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC5F153F-7426-66F6-5FEE-2D213B1A1483" name="Cargo">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>49631CB5-728F-E660-DD79-60D1E5B44603</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cargo" id="F2928124-337B-6BEC-9F8A-0C36DC4C1D5C">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>FBA294A1-172D-AD8F-F0F8-4BED996C4A96</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="44BD36BD-37C4-8E3E-83FC-80C37AD18E0C">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>E05E5D24-FC6E-404E-52F6-22D5B51E2F5A</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="98DCDF6B-BAEC-67CB-7104-311CB55A966F">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>A8A6A9A1-B864-ACE5-A4D9-452F02BD5788</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cargo_ID" id="09417BB7-DBC0-FE50-0F1A-FA5367557276">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA200BE4-34CD-EDD8-7960-F19DB9BD1A4B" name="Cargo_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="09417BB7-DBC0-FE50-0F1A-FA5367557276"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8B37EFB-AFE7-5F01-697C-40B2CED818A8" name="Vuelo">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>E5693D46-4AFE-068E-D7CF-8E72CA0D7D36</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vuelo" id="FB7BFE6D-2C45-946E-B140-45BF4B1A2987">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>6DFA6536-0D6E-6A0D-591B-0826989BDE75</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_salida" id="DD98FF24-FB95-1138-6A03-AB2D7DE935C7">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>D1F9E1FB-E756-F987-8F84-297D86FB979B</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_llegada" id="A7F7CC25-394C-5FCB-43EC-693C50E60897">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>4A38DB4B-E3B5-9FA1-AAD7-46A6F3B73A37</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="1B103F2F-84BF-59FC-B461-5D8C3213F5EC">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>1CD70960-410C-6939-5764-325243FD58CD</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tarifa_primera" id="64EFB6BC-CAD5-F4CB-1A29-1A9ABDD1A9F9">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>CDCC68FA-8FE3-4709-055A-DD238B05D800</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tarifa_ejecutiva" id="D4874AAD-6CD1-0249-9B92-106A8F1D7588">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>E9F8A86A-D157-F172-2FED-CF5C3DBEE72B</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tarifa_economica" id="EDB28CA1-4E41-13CF-9128-24DA271C6598">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>DB7574DF-4C89-61C7-643C-58A5B33E3261</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ruta" id="094D2940-46FB-4557-0105-FF9B1AAB1282">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>665B3AF0-0AE9-6ECD-4FF3-F609ADBF859F</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0DC54AE-E085-AA10-4666-2C57C8FD5297" name="Vuelo_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-20 20:48:53 UTC</createdTime>
+<generatorID>9C24AA33-6F37-746C-7828-64FB58F08EB7</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB7BFE6D-2C45-946E-B140-45BF4B1A2987"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
