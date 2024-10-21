@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5693D46-4AFE-068E-D7CF-8E72CA0D7D36" name="Vuelo">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F457AAF9-7A5C-98F6-7283-75AC958BFCC0" name="Boleto">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:36:03 UTC</createdTime>
+<createdTime>2024-10-21 05:25:30 UTC</createdTime>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <engineerTo>
 <item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_vuelo" id="6DFA6536-0D6E-6A0D-591B-0826989BDE75">
+<Attribute name="id_boleto" id="5772DD69-6C4C-CB77-65FD-C2252B601B8A">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:38:39 UTC</createdTime>
+<createdTime>2024-10-21 05:25:38 UTC</createdTime>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <engineerTo>
 <item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
@@ -27,83 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_salida" id="D1F9E1FB-E756-F987-8F84-297D86FB979B">
+<Attribute name="estado" id="D58414E9-5C3B-2A23-4DB9-3C9B72DD36F6">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:39:03 UTC</createdTime>
-<ownerDesignName>Proyecto2</ownerDesignName>
-<engineerTo>
-<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fecha_llegada" id="4A38DB4B-E3B5-9FA1-AAD7-46A6F3B73A37">
-<createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:39:26 UTC</createdTime>
-<ownerDesignName>Proyecto2</ownerDesignName>
-<engineerTo>
-<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="estado" id="1CD70960-410C-6939-5764-325243FD58CD">
-<createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:39:59 UTC</createdTime>
-<ownerDesignName>Proyecto2</ownerDesignName>
-<engineerTo>
-<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25 CHAR</dataTypeSize>
-<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="tarifa_primera" id="CDCC68FA-8FE3-4709-055A-DD238B05D800">
-<createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:41:31 UTC</createdTime>
-<ownerDesignName>Proyecto2</ownerDesignName>
-<engineerTo>
-<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="tarifa_ejecutiva" id="E9F8A86A-D157-F172-2FED-CF5C3DBEE72B">
-<createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:44:01 UTC</createdTime>
-<ownerDesignName>Proyecto2</ownerDesignName>
-<engineerTo>
-<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="tarifa_economica" id="DB7574DF-4C89-61C7-643C-58A5B33E3261">
-<createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:44:01 UTC</createdTime>
-<ownerDesignName>Proyecto2</ownerDesignName>
-<engineerTo>
-<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ruta" id="665B3AF0-0AE9-6ECD-4FF3-F609ADBF859F">
-<createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:44:33 UTC</createdTime>
+<createdTime>2024-10-21 05:28:05 UTC</createdTime>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <engineerTo>
 <item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
@@ -114,15 +40,84 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_ruta" id="7E1F40FA-C802-4ECA-86F2-1D5F1B8825E8">
+<Attribute name="numero_pasaporte" id="90C53975-9483-7F68-FB7B-5A39AE09F2DD">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-21 05:19:20 UTC</createdTime>
-<generatorID>EC6E92D6-07E7-8284-67CD-7062C89BCBDF</generatorID>
+<createdTime>2024-10-21 05:45:40 UTC</createdTime>
+<generatorID>D884ED19-F05F-5EC6-1BBA-EDCB40464716</generatorID>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <engineerTo>
 <item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
 </engineerTo>
-<referedAttribute>9143CB4A-5840-812C-BF8A-58C110A54B70</referedAttribute>
+<referedAttribute>92D2B80F-0E61-BADD-57F4-E73008E639CC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vuelo" id="2E236B89-40A4-D054-F145-E63A873DF1FA">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 05:46:14 UTC</createdTime>
+<generatorID>4D772B90-8A1C-D607-FE09-5B58E20B5670</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+</engineerTo>
+<referedAttribute>6DFA6536-0D6E-6A0D-591B-0826989BDE75</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_reserva" id="9222B599-0204-4247-29D0-C8236B9A9FD5">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 05:47:47 UTC</createdTime>
+<generatorID>90A79553-8A05-E40F-2172-BF21D24F123D</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+</engineerTo>
+<referedAttribute>CCD4B3DB-CF27-180D-6B1D-F682B31C84B4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="origen" id="28118971-6FD3-FC6B-68C4-ABC4DA299BF9">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 05:57:06 UTC</createdTime>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asiento" id="D9493350-29F6-5BA1-E2A0-1F7D6A280BE4">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:02:56 UTC</createdTime>
+<generatorID>84FD70C6-69B9-34D5-D277-5734D8B1F7EB</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+</engineerTo>
+<referedAttribute>CEA73D1C-EE83-42BD-5E31-E160472A7EFF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empleado" id="654DE75C-989C-012F-0E81-F200E0F082DB">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:05:39 UTC</createdTime>
+<generatorID>458A5553-A2FD-3531-1902-3394D94E8B69</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+</engineerTo>
+<referedAttribute>358C9D6D-EB49-1ACB-506B-459775F30CEC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -130,17 +125,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9C24AA33-6F37-746C-7828-64FB58F08EB7" name="Vuelo PK">
+<identifier id="00CADCEF-11CC-BE4E-9FCC-ED8F9D440AB8" name="Boleto PK">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:38:48 UTC</createdTime>
+<createdTime>2024-10-21 05:47:25 UTC</createdTime>
 <ownerDesignName>Proyecto2</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="false"/>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6DFA6536-0D6E-6A0D-591B-0826989BDE75</attributeRef>
+<attributeRef>5772DD69-6C4C-CB77-65FD-C2252B601B8A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

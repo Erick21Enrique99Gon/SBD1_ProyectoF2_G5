@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="925C5DFF-EEA1-1D82-4A2C-7B43048F0119" name="Rutas">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>B6647C1E-C400-8E33-699D-EA4977E5E6CA</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ruta" id="E16A7212-3E05-0C19-7049-733926F1E8E2">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>9143CB4A-5840-812C-BF8A-58C110A54B70</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tiempo_de_vuelo" id="BD310FC5-66A2-D664-78B9-921DF552F3E2">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>1BB8109D-670E-F163-41CB-02D03361EF70</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="distancia" id="BA95B583-5002-2F8B-7F58-AA662D0FA025">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>B4587B14-41D7-CC19-E99E-721AC16E6D39</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aeropuerto_id_aeropuerto" id="6BAF3C07-A6AE-617B-DB80-EE631EC532AD">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>71F0DA04-5C9A-9531-F6F5-7A1E8A77CA4F</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC0C5EFE-A551-B4FB-7319-5AE70DD3ECB9" referredColumn="BCEDB40E-D6BF-4236-86C9-549833A22AAE"/>
+</associations>
+</Column>
+<Column name="Aeropuerto_id_aeropuerto2" id="D01FE5B5-E345-4786-9C2D-2AF8194C744D">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>87B21183-B12D-5C11-BC89-3688EDF36FCA</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A670B9DD-C163-19D9-9615-28F1B4A39041" referredColumn="BCEDB40E-D6BF-4236-86C9-549833A22AAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6453C598-847E-95E7-0767-5BB530372281" name="Rutas_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>DAC67D4F-E83E-D849-3CBE-81A5ED3408C2</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E16A7212-3E05-0C19-7049-733926F1E8E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBD406C8-DC2F-FF9F-53B7-FAE9C1A3A9E9" name="Rutas_Aeropuerto_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>355663ED-2BD3-0B99-1D5F-BB9567BC6E81</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BAF3C07-A6AE-617B-DB80-EE631EC532AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A9D621E-3E23-1123-74A3-B6A32189CCB2" name="Rutas_Aeropuerto_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>689679D3-7B93-76C0-A5CF-F925F86FDFDF</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D01FE5B5-E345-4786-9C2D-2AF8194C744D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

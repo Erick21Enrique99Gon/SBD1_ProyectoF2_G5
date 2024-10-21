@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F40CD485-FA05-66F1-22DE-49FD808C9ACF" containerWithKeyObject="687AE551-EDAE-530A-F28C-610C7E95EEB4" localFKIndex="FB0B4D45-6FD5-68A2-FC2C-4A0E72C419B5" name="Boleto_Asientos_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>84FD70C6-69B9-34D5-D277-5734D8B1F7EB</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<referredTableLongName>Asientos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7D829E5E-2E0F-5472-9032-C8DCA11C32E4</referredTableID>
+<keyObject>C5787B76-3E17-71EA-442D-55AEF4763477</keyObject>
+<referredKeyID>C5787B76-3E17-71EA-442D-55AEF4763477</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_asiento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

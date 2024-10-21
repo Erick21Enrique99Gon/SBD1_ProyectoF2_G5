@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="687AE551-EDAE-530A-F28C-610C7E95EEB4" name="Boleto">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>F457AAF9-7A5C-98F6-7283-75AC958BFCC0</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_boleto" id="AD1D84E1-99E6-4F91-263A-0EAE88EBC54D">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>5772DD69-6C4C-CB77-65FD-C2252B601B8A</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="7D9D2041-4DC3-9EB4-BF3B-9F53B9E89E9E">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>D58414E9-5C3B-2A23-4DB9-3C9B72DD36F6</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pasajero_numero_pasaporte" id="E5DB88E3-49D8-DE90-DEF9-A29E55E91BA5">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>90C53975-9483-7F68-FB7B-5A39AE09F2DD</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2A3AA8B-0BE7-6C35-11E4-500FEAFC53FE" referredColumn="12EAFF73-387D-D633-B865-677046BB0F9D"/>
+</associations>
+</Column>
+<Column name="Vuelo_id_vuelo" id="37793E55-B0E8-6457-35B4-ED9EFE5BB9FA">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>2E236B89-40A4-D054-F145-E63A873DF1FA</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CCA7BB6-FDD3-1F34-3D66-452DF942FCE7" referredColumn="D92C8CAC-6785-DDB0-5DD4-CFBE41ABB321"/>
+</associations>
+</Column>
+<Column name="Reserva_id_reserva" id="D5C29149-432B-9865-C5B9-35E84D10EB93">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>9222B599-0204-4247-29D0-C8236B9A9FD5</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90BFFBB4-9698-C9FD-4206-E5750D1675CC" referredColumn="63FF3681-FFFC-159C-AF2D-1E26E0616DD2"/>
+</associations>
+</Column>
+<Column name="origen" id="1FF4FF01-3131-7758-E211-78952BC21F7B">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>28118971-6FD3-FC6B-68C4-ABC4DA299BF9</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Asientos_id_asiento" id="D0F12243-7B16-E234-004C-A465DA7241FE">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>D9493350-29F6-5BA1-E2A0-1F7D6A280BE4</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F40CD485-FA05-66F1-22DE-49FD808C9ACF" referredColumn="29244D75-464E-2D70-04EE-985C466567B8"/>
+</associations>
+</Column>
+<Column name="Empleados_id_empleado" id="76C60531-6629-3D0C-424E-8025F1A30775">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>654DE75C-989C-012F-0E81-F200E0F082DB</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9C7CCC2-8F3D-E486-74A1-33E3BE7F252E" referredColumn="9A0B01CF-F930-CB24-36E7-19F7BE02B5E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E8E18B6-D9EF-5604-3DC9-C8185E04FF05" name="Boleto_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>00CADCEF-11CC-BE4E-9FCC-ED8F9D440AB8</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD1D84E1-99E6-4F91-263A-0EAE88EBC54D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91E0DB77-10DD-0742-9BDF-232AC6943B9F" name="Boleto_Pasajero_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>D884ED19-F05F-5EC6-1BBA-EDCB40464716</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5DB88E3-49D8-DE90-DEF9-A29E55E91BA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C54753E9-255F-4FEE-D8D3-AC61B0D4BDE6" name="Boleto_Vuelo_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>4D772B90-8A1C-D607-FE09-5B58E20B5670</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37793E55-B0E8-6457-35B4-ED9EFE5BB9FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78E560E8-BD03-9142-7860-8FBDCC8C1D8F" name="Boleto_Reserva_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>90A79553-8A05-E40F-2172-BF21D24F123D</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5C29149-432B-9865-C5B9-35E84D10EB93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB0B4D45-6FD5-68A2-FC2C-4A0E72C419B5" name="Boleto_Asientos_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>84FD70C6-69B9-34D5-D277-5734D8B1F7EB</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0F12243-7B16-E234-004C-A465DA7241FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33C1B39F-ED46-726C-C8B7-7084C34BB38F" name="Boleto_Empleados_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>458A5553-A2FD-3531-1902-3394D94E8B69</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76C60531-6629-3D0C-424E-8025F1A30775"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

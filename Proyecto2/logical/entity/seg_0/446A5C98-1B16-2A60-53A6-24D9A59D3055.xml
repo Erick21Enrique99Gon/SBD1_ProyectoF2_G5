@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F8F152D0-4DFF-2F06-1E9D-FC8827E8661F" name="Pasajero">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="446A5C98-1B16-2A60-53A6-24D9A59D3055" name="Aerolinea">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:24:33 UTC</createdTime>
+<createdTime>2024-10-21 04:47:49 UTC</createdTime>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <engineerTo>
 <item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="numero_pasaporte" id="92D2B80F-0E61-BADD-57F4-E73008E639CC">
+<Attribute name="id_aerolinea" id="90F45D9C-5B98-DB62-71C7-831E89F8AD67">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:24:44 UTC</createdTime>
+<createdTime>2024-10-21 04:48:00 UTC</createdTime>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <engineerTo>
 <item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
@@ -27,9 +27,22 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="AE76001A-8240-BF78-F672-7741FAFD372B">
+<Attribute name="codigo_oaci" id="A1B69E9F-82D6-5C91-D809-6B40556E552F">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:30:03 UTC</createdTime>
+<createdTime>2024-10-21 04:49:36 UTC</createdTime>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="BCC16F6C-FA63-23F2-A809-F64555F0EA33">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 04:50:07 UTC</createdTime>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <engineerTo>
 <item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
@@ -40,9 +53,9 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="apellido" id="64279F2A-A4C4-B5B5-64BB-1F4C2398A9C9">
+<Attribute name="ciudad" id="8574F1D4-63DF-CFB9-7F2A-9D6C9C735CCE">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:30:03 UTC</createdTime>
+<createdTime>2024-10-21 04:51:18 UTC</createdTime>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <engineerTo>
 <item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
@@ -50,59 +63,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nacimiento" id="F66AF7B7-0781-7859-B52D-EABACFADC55B">
-<createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:30:03 UTC</createdTime>
-<ownerDesignName>Proyecto2</ownerDesignName>
-<engineerTo>
-<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="correo" id="65904067-9904-A061-45C3-89BC72FD567C">
-<createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:29:16 UTC</createdTime>
-<ownerDesignName>Proyecto2</ownerDesignName>
-<engineerTo>
-<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="telefono" id="10474778-0083-61EC-2093-232AA454577B">
-<createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:30:03 UTC</createdTime>
-<ownerDesignName>Proyecto2</ownerDesignName>
-<engineerTo>
-<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E84929D1-0964-6BA7-CCB3-117D7FFE58BB" name="Pasajero PK">
+<identifier id="0A6C5358-FD3B-76C1-CC3B-CCCE87106A10" name="Aerolinea PK">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:25:09 UTC</createdTime>
+<createdTime>2024-10-21 04:48:16 UTC</createdTime>
 <ownerDesignName>Proyecto2</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="false"/>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>92D2B80F-0E61-BADD-57F4-E73008E639CC</attributeRef>
+<attributeRef>90F45D9C-5B98-DB62-71C7-831E89F8AD67</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

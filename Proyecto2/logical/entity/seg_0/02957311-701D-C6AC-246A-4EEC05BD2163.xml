@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6647C1E-C400-8E33-699D-EA4977E5E6CA" name="Rutas">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02957311-701D-C6AC-246A-4EEC05BD2163" name="Asientos">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 19:52:29 UTC</createdTime>
+<createdTime>2024-10-21 05:50:32 UTC</createdTime>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <engineerTo>
 <item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_ruta" id="9143CB4A-5840-812C-BF8A-58C110A54B70">
+<Attribute name="id_asiento" id="CEA73D1C-EE83-42BD-5E31-E160472A7EFF">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 19:54:05 UTC</createdTime>
+<createdTime>2024-10-21 06:00:16 UTC</createdTime>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <engineerTo>
 <item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
@@ -27,55 +27,41 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tiempo_de_vuelo" id="1BB8109D-670E-F163-41CB-02D03361EF70">
+<Attribute name="numero_asiento" id="12EEC851-2BF0-C11E-4ACE-BD89DF6D9261">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 19:54:27 UTC</createdTime>
+<createdTime>2024-10-21 06:01:15 UTC</createdTime>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <engineerTo>
 <item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="distancia" id="B4587B14-41D7-CC19-E99E-721AC16E6D39">
+<Attribute name="clase" id="8B969ABB-6DF0-1D90-CE59-6447D8ABEE6F">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 19:57:08 UTC</createdTime>
+<createdTime>2024-10-21 06:02:00 UTC</createdTime>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <engineerTo>
 <item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_aeropuerto" id="71F0DA04-5C9A-9531-F6F5-7A1E8A77CA4F">
+<Attribute name="id_avion" id="4E945F12-95CA-9894-F125-F682E199562C">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-21 05:06:40 UTC</createdTime>
-<generatorID>355663ED-2BD3-0B99-1D5F-BB9567BC6E81</generatorID>
+<createdTime>2024-10-21 06:27:06 UTC</createdTime>
+<generatorID>65CDDA24-33E6-54D0-6A51-92AD4B896F55</generatorID>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <engineerTo>
 <item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
 </engineerTo>
-<referedAttribute>5ADD0116-EAA0-02FC-ED09-C00BEBEBBF98</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_aeropuerto1" id="87B21183-B12D-5C11-BC89-3688EDF36FCA">
-<createdBy>erick</createdBy>
-<createdTime>2024-10-21 05:06:47 UTC</createdTime>
-<generatorID>689679D3-7B93-76C0-A5CF-F925F86FDFDF</generatorID>
-<ownerDesignName>Proyecto2</ownerDesignName>
-<engineerTo>
-<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
-</engineerTo>
-<referedAttribute>5ADD0116-EAA0-02FC-ED09-C00BEBEBBF98</referedAttribute>
+<referedAttribute>2F1974AD-22D0-0A14-FDF8-EC40DB609CD3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -83,17 +69,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="DAC67D4F-E83E-D849-3CBE-81A5ED3408C2" name="Rutas PK">
+<identifier id="F8AFFFD0-35AE-2E3C-03FB-6E626FAA7527" name="Asientos PK">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 19:54:23 UTC</createdTime>
+<createdTime>2024-10-21 06:01:10 UTC</createdTime>
 <ownerDesignName>Proyecto2</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="false"/>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9143CB4A-5840-812C-BF8A-58C110A54B70</attributeRef>
+<attributeRef>CEA73D1C-EE83-42BD-5E31-E160472A7EFF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

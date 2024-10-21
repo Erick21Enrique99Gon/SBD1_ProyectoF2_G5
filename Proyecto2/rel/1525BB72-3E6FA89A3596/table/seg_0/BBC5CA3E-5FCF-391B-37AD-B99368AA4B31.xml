@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7500D13E-9586-6BF4-6905-A106E201ECEE" name="Rutas">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBC5CA3E-5FCF-391B-37AD-B99368AA4B31" name="Reserva">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:48:53 UTC</createdTime>
-<generatorID>B6647C1E-C400-8E33-699D-EA4977E5E6CA</generatorID>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>885A1AB9-E8F7-7491-0BAE-90E079AB0075</generatorID>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_ruta" id="79FF2D6D-8DFE-F1FE-E6E8-2AAEAAF3AE83">
+<Column name="id_reserva" id="63FF3681-FFFC-159C-AF2D-1E26E0616DD2">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:48:53 UTC</createdTime>
-<generatorID>9143CB4A-5840-812C-BF8A-58C110A54B70</generatorID>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>CCD4B3DB-CF27-180D-6B1D-F682B31C84B4</generatorID>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,42 +19,42 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tiempo_de_vuelo" id="7DFC5D6C-CBD4-25B1-83BF-DD774900D9D1">
+<Column name="fecha" id="DBAF9C66-3CD5-2CA3-49F9-FCF06F36BF1B">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:48:53 UTC</createdTime>
-<generatorID>1BB8109D-670E-F163-41CB-02D03361EF70</generatorID>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>3C285837-6CE4-BCAC-6D9E-03492CB123AF</generatorID>
 <ownerDesignName>Proyecto2</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="distancia" id="ADA2CAEA-F30B-19A1-C138-F84DD1928A15">
+<Column name="estado" id="49CD6CD1-7C2C-7DB1-C700-5B9B879CE289">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:48:53 UTC</createdTime>
-<generatorID>B4587B14-41D7-CC19-E99E-721AC16E6D39</generatorID>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>F1227BBE-BD5A-C04C-3DDA-868B5A6668FC</generatorID>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="2F8DA303-FC77-A8E7-7F4B-AA87683C3391" name="Rutas_PK">
+<ind_PK_UK id="3E41705E-3984-FE16-B446-DB91D9D6809D" name="Reserva_PK">
 <createdBy>erick</createdBy>
-<createdTime>2024-10-20 20:48:53 UTC</createdTime>
-<generatorID>DAC67D4F-E83E-D849-3CBE-81A5ED3408C2</generatorID>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>A3E040DC-08FD-E4DC-D83D-D5DB933A869B</generatorID>
 <ownerDesignName>Proyecto2</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="79FF2D6D-8DFE-F1FE-E6E8-2AAEAAF3AE83"/>
+<colUsage columnID="63FF3681-FFFC-159C-AF2D-1E26E0616DD2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

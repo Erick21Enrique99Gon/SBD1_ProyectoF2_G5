@@ -127,14 +127,29 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_aerolinea" id="605EC0F9-1AF5-E5C6-131F-EF35F82B3C6F">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 04:54:07 UTC</createdTime>
+<generatorID>A2106037-5E20-42B6-307D-C7FC3A10A048</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+</engineerTo>
+<referedAttribute>90F45D9C-5B98-DB62-71C7-831E89F8AD67</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E68CCC31-1A08-8FBD-6DAE-DB97EB67A859" name="Empleados PK">
 <createdBy>erick</createdBy>
 <createdTime>2024-10-20 20:03:22 UTC</createdTime>
 <ownerDesignName>Proyecto2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

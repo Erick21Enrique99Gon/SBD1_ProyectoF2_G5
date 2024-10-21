@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41EFFD21-4E45-D181-C208-0AB9BD87692F" name="Tripulacion">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 05:23:36 UTC</createdTime>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tripulacion" id="26A8BAC1-3DA9-D042-C802-B964097C8C1A">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 05:23:47 UTC</createdTime>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empleado" id="B85AE77C-4613-F2AE-9B82-E654A58FCA25">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 05:24:24 UTC</createdTime>
+<generatorID>23CC9C58-9EA1-EA9C-603E-CDA3FC21AB67</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+</engineerTo>
+<referedAttribute>358C9D6D-EB49-1ACB-506B-459775F30CEC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vuelo" id="C85932C8-BE86-4482-EAE9-E279F6F6F79C">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 05:24:32 UTC</createdTime>
+<generatorID>96C91314-A0DB-13B7-EC90-F02CDF4A3AE3</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+</engineerTo>
+<referedAttribute>6DFA6536-0D6E-6A0D-591B-0826989BDE75</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="56EE0CF3-0A90-B677-78D6-A7EFF108EF9D" name="Tripulacion PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 05:24:00 UTC</createdTime>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>26A8BAC1-3DA9-D042-C802-B964097C8C1A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

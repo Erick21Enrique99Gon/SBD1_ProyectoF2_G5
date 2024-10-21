@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B6D5F0D-AD49-A739-04D1-62C90967550A" name="Terminal">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>A63451FF-4069-5170-8A48-7D070AFB5039</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_terminal" id="335F78F4-02A2-0AD4-6C8B-ACC0C56B8F8F">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>E2405D4D-BBB6-5E38-069E-EEB45CCC6D0C</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aeropuerto_id_aeropuerto" id="B4C047D8-7554-1BBB-D782-E2E741661E3E">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>06E67E8C-EE51-D6AE-02CB-49861F5FD457</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77C7C6DD-1D72-28E1-0CB5-D18F6E34652B" referredColumn="BCEDB40E-D6BF-4236-86C9-549833A22AAE"/>
+</associations>
+</Column>
+<Column name="Terminal_ID" id="0200848E-2365-85C5-79C9-F346A2E0739A">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45DA3A25-77B8-4B55-90A5-E895B1560C52" name="Terminal_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="0200848E-2365-85C5-79C9-F346A2E0739A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E0D287F-9D9B-8633-C8B1-40E18D660CEF" name="Terminal_Aeropuerto_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 06:24:01 UTC</createdTime>
+<generatorID>32C3351D-1A44-6977-FECF-375E4A25D334</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4C047D8-7554-1BBB-D782-E2E741661E3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
