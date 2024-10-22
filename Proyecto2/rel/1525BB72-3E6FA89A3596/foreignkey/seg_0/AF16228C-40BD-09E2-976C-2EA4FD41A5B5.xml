@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AF16228C-40BD-09E2-976C-2EA4FD41A5B5" containerWithKeyObject="47AABE57-2451-0862-B179-3270B8C91CB4" localFKIndex="6E150171-3EA8-A465-40CD-6C2FA0492F70" name="Empleados_Aerolinea_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:15 UTC</createdTime>
+<generatorID>A2106037-5E20-42B6-307D-C7FC3A10A048</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<referredTableLongName>Aerolinea</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0AF200A5-01C6-852C-E42A-7A9E44CA6274</referredTableID>
+<keyObject>EE34028C-E2EB-6645-541A-DC977E8977BD</keyObject>
+<referredKeyID>EE34028C-E2EB-6645-541A-DC977E8977BD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_aerolinea</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

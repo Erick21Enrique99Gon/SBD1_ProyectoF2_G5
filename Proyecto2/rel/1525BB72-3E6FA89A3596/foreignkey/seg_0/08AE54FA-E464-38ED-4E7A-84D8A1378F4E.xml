@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="08AE54FA-E464-38ED-4E7A-84D8A1378F4E" containerWithKeyObject="C1012FB6-15CE-24EC-76A7-61C5E9B0CD58" localFKIndex="B26900F0-327C-0959-10F8-49CD6432DA26" name="PuertaEmbarque_Terminal_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:15 UTC</createdTime>
+<generatorID>D8363B58-3F4F-BDA2-CBC3-206C0B8A2A3F</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<referredTableLongName>Terminal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>20DDA915-2CBC-FD18-B974-54559D80B427</referredTableID>
+<keyObject>94FF7643-9039-F063-6F99-1E1366C7C02E</keyObject>
+<referredKeyID>94FF7643-9039-F063-6F99-1E1366C7C02E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_terminal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

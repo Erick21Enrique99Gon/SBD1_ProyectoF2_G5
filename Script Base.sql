@@ -1,5 +1,5 @@
 -- Generado por Oracle SQL Developer Data Modeler 23.1.0.087.0806
---   en:        2024-10-21 19:51:57 CST
+--   en:        2024-10-22 17:31:47 CST
 --   sitio:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
 
@@ -18,6 +18,8 @@ DROP TABLE boleto CASCADE CONSTRAINTS;
 DROP TABLE cargo CASCADE CONSTRAINTS;
 
 DROP TABLE empleados CASCADE CONSTRAINTS;
+
+DROP TABLE historial_transacciones CASCADE CONSTRAINTS;
 
 DROP TABLE pasajero CASCADE CONSTRAINTS;
 
@@ -121,6 +123,12 @@ CREATE TABLE empleados (
 
 ALTER TABLE empleados ADD CONSTRAINT empleados_pk PRIMARY KEY ( id_empleado );
 
+CREATE TABLE historial_transacciones (
+    fecha       DATE,
+    descripcion VARCHAR2(500),
+    tipo        VARCHAR2(200 CHAR)
+);
+
 CREATE TABLE pasajero (
     numero_pasaporte INTEGER NOT NULL,
     nombre           VARCHAR2(100 CHAR) NOT NULL,
@@ -153,7 +161,7 @@ CREATE TABLE rutas (
     tiempo_de_vuelo           INTEGER,
     distancia                 INTEGER,
     aeropuerto_id_aeropuerto  INTEGER NOT NULL,
-    aeropuerto_id_aeropuerto1 INTEGER NOT NULL
+    aeropuerto_id_aeropuerto2 INTEGER NOT NULL
 );
 
 ALTER TABLE rutas ADD CONSTRAINT rutas_pk PRIMARY KEY ( id_ruta );
@@ -243,7 +251,7 @@ ALTER TABLE rutas
         REFERENCES aeropuerto ( id_aeropuerto );
 
 ALTER TABLE rutas
-    ADD CONSTRAINT rutas_aeropuerto_fkv1 FOREIGN KEY ( aeropuerto_id_aeropuerto1 )
+    ADD CONSTRAINT rutas_aeropuerto_fkv2 FOREIGN KEY ( aeropuerto_id_aeropuerto2 )
         REFERENCES aeropuerto ( id_aeropuerto );
 
 ALTER TABLE tarifa
@@ -270,143 +278,11 @@ ALTER TABLE vuelo
     ADD CONSTRAINT vuelo_rutas_fk FOREIGN KEY ( rutas_id_ruta )
         REFERENCES rutas ( id_ruta );
 
-CREATE SEQUENCE aerolinea_id_aerolinea_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER aerolinea_id_aerolinea_trg BEFORE
-    INSERT ON aerolinea
-    FOR EACH ROW
-    WHEN ( new.id_aerolinea IS NULL )
-BEGIN
-    :new.id_aerolinea := aerolinea_id_aerolinea_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE aeropuerto_id_aeropuerto_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER aeropuerto_id_aeropuerto_trg BEFORE
-    INSERT ON aeropuerto
-    FOR EACH ROW
-    WHEN ( new.id_aeropuerto IS NULL )
-BEGIN
-    :new.id_aeropuerto := aeropuerto_id_aeropuerto_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE asientos_id_asiento_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER asientos_id_asiento_trg BEFORE
-    INSERT ON asientos
-    FOR EACH ROW
-    WHEN ( new.id_asiento IS NULL )
-BEGIN
-    :new.id_asiento := asientos_id_asiento_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE avion_id_avion_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER avion_id_avion_trg BEFORE
-    INSERT ON avion
-    FOR EACH ROW
-    WHEN ( new.id_avion IS NULL )
-BEGIN
-    :new.id_avion := avion_id_avion_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE boleto_id_boleto_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER boleto_id_boleto_trg BEFORE
-    INSERT ON boleto
-    FOR EACH ROW
-    WHEN ( new.id_boleto IS NULL )
-BEGIN
-    :new.id_boleto := boleto_id_boleto_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE cargo_id_cargo_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER cargo_id_cargo_trg BEFORE
-    INSERT ON cargo
-    FOR EACH ROW
-    WHEN ( new.id_cargo IS NULL )
-BEGIN
-    :new.id_cargo := cargo_id_cargo_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE puertaembarque_id_puerta_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER puertaembarque_id_puerta_trg BEFORE
-    INSERT ON puertaembarque
-    FOR EACH ROW
-    WHEN ( new.id_puerta IS NULL )
-BEGIN
-    :new.id_puerta := puertaembarque_id_puerta_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE reserva_id_reserva_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER reserva_id_reserva_trg BEFORE
-    INSERT ON reserva
-    FOR EACH ROW
-    WHEN ( new.id_reserva IS NULL )
-BEGIN
-    :new.id_reserva := reserva_id_reserva_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE rutas_id_ruta_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER rutas_id_ruta_trg BEFORE
-    INSERT ON rutas
-    FOR EACH ROW
-    WHEN ( new.id_ruta IS NULL )
-BEGIN
-    :new.id_ruta := rutas_id_ruta_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE tarifa_id_tarifa_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER tarifa_id_tarifa_trg BEFORE
-    INSERT ON tarifa
-    FOR EACH ROW
-    WHEN ( new.id_tarifa IS NULL )
-BEGIN
-    :new.id_tarifa := tarifa_id_tarifa_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE terminal_id_terminal_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER terminal_id_terminal_trg BEFORE
-    INSERT ON terminal
-    FOR EACH ROW
-    WHEN ( new.id_terminal IS NULL )
-BEGIN
-    :new.id_terminal := terminal_id_terminal_seq.nextval;
-END;
-/
-
-CREATE SEQUENCE tripulacion_id_tripulacion_seq START WITH 1 NOCACHE ORDER;
-
-CREATE OR REPLACE TRIGGER tripulacion_id_tripulacion_trg BEFORE
-    INSERT ON tripulacion
-    FOR EACH ROW
-    WHEN ( new.id_tripulacion IS NULL )
-BEGIN
-    :new.id_tripulacion := tripulacion_id_tripulacion_seq.nextval;
-END;
-/
-
 
 
 -- Informe de Resumen de Oracle SQL Developer Data Modeler: 
 -- 
--- CREATE TABLE                            15
+-- CREATE TABLE                            16
 -- CREATE INDEX                             0
 -- ALTER TABLE                             33
 -- CREATE VIEW                              0
@@ -415,7 +291,7 @@ END;
 -- CREATE PACKAGE BODY                      0
 -- CREATE PROCEDURE                         0
 -- CREATE FUNCTION                          0
--- CREATE TRIGGER                          12
+-- CREATE TRIGGER                           0
 -- ALTER TRIGGER                            0
 -- CREATE COLLECTION TYPE                   0
 -- CREATE STRUCTURED TYPE                   0
@@ -428,7 +304,7 @@ END;
 -- CREATE DISK GROUP                        0
 -- CREATE ROLE                              0
 -- CREATE ROLLBACK SEGMENT                  0
--- CREATE SEQUENCE                         12
+-- CREATE SEQUENCE                          0
 -- CREATE MATERIALIZED VIEW                 0
 -- CREATE MATERIALIZED VIEW LOG             0
 -- CREATE SYNONYM                           0

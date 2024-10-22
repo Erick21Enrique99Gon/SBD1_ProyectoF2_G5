@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CDEFA50-61D3-BC0D-EA0E-487D3932FC61" name="Cargo">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:14 UTC</createdTime>
+<generatorID>49631CB5-728F-E660-DD79-60D1E5B44603</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cargo" id="4F966C82-C7C7-CA9C-98B6-C5D6D0503A86">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:14 UTC</createdTime>
+<generatorID>FBA294A1-172D-AD8F-F0F8-4BED996C4A96</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="EAFB0713-6425-130C-B1C5-22E84BA351FC">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:14 UTC</createdTime>
+<generatorID>E05E5D24-FC6E-404E-52F6-22D5B51E2F5A</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="C05D36E1-A38C-D13B-43D8-B47B2C387884">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:14 UTC</createdTime>
+<generatorID>A8A6A9A1-B864-ACE5-A4D9-452F02BD5788</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="786D3399-EA30-B399-B85D-984C7D4628A7" name="Cargo_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:14 UTC</createdTime>
+<generatorID>46E6DDB5-A2B8-4584-9305-22DE6479739D</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F966C82-C7C7-CA9C-98B6-C5D6D0503A86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F830CBC-0734-158F-6A18-8C440F7EB91A" name="Asientos">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:14 UTC</createdTime>
+<generatorID>02957311-701D-C6AC-246A-4EEC05BD2163</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asiento" id="03CB698F-291E-F542-F095-01315AE48F9C">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:14 UTC</createdTime>
+<generatorID>CEA73D1C-EE83-42BD-5E31-E160472A7EFF</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_asiento" id="2DD96EE6-661D-09F8-873D-C01CED085065">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:14 UTC</createdTime>
+<generatorID>12EEC851-2BF0-C11E-4ACE-BD89DF6D9261</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clase" id="F2E4B038-4D13-8F3A-4986-8CD02DB7CB9E">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:14 UTC</createdTime>
+<generatorID>8B969ABB-6DF0-1D90-CE59-6447D8ABEE6F</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Avion_id_avion" id="41103F00-8A0A-B75F-DE55-612F8656F46C">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:14 UTC</createdTime>
+<generatorID>4E945F12-95CA-9894-F125-F682E199562C</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD365CAD-8029-2D15-A518-D1EABB4B7EE3" referredColumn="1DB7FFAF-E040-1760-E74E-091EBCF0D157"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DD64414-F22D-0756-5736-224383B55EA7" name="Asientos_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:14 UTC</createdTime>
+<generatorID>F8AFFFD0-35AE-2E3C-03FB-6E626FAA7527</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03CB698F-291E-F542-F095-01315AE48F9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F97C9449-3DF8-26BB-6339-A1B6F05846BC" name="Asientos_Avion_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:15 UTC</createdTime>
+<generatorID>65CDDA24-33E6-54D0-6A51-92AD4B896F55</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41103F00-8A0A-B75F-DE55-612F8656F46C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

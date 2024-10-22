@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1012FB6-15CE-24EC-76A7-61C5E9B0CD58" name="PuertaEmbarque">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:14 UTC</createdTime>
+<generatorID>0DF9A0D3-B51C-3824-D7E1-D446B1009BD9</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_puerta" id="4B43BD92-99E3-95C2-AED0-776EA2192A84">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:14 UTC</createdTime>
+<generatorID>32AA1AB8-2CDF-8FC5-5FEC-61EBD3C1D91C</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puerta" id="84371B50-386E-2EFC-DCB7-54943BF3F098">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:14 UTC</createdTime>
+<generatorID>CCCCF955-92D4-A142-649B-60A10FA13566</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Terminal_id_terminal" id="F6D9D0A8-AE8F-2E41-9C8C-FFCB9C8CBD35">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:14 UTC</createdTime>
+<generatorID>3C617EA1-D1F1-87C1-7EA9-6EAD4F3B77DF</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08AE54FA-E464-38ED-4E7A-84D8A1378F4E" referredColumn="7230E1E5-6B0D-77D2-2CB2-93D3F240E103"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F3BE85D-68CA-0F3E-7A8F-BDCC94AA7C07" name="PuertaEmbarque_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:14 UTC</createdTime>
+<generatorID>B374BC1A-56B4-4982-0F9B-6E6C9342B0BF</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B43BD92-99E3-95C2-AED0-776EA2192A84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B26900F0-327C-0959-10F8-49CD6432DA26" name="PuertaEmbarque_Terminal_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 23:31:15 UTC</createdTime>
+<generatorID>D8363B58-3F4F-BDA2-CBC3-206C0B8A2A3F</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6D9D0A8-AE8F-2E41-9C8C-FFCB9C8CBD35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

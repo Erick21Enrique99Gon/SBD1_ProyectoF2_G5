@@ -16,7 +16,7 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="02957311-701D-C6AC-246A-4EEC05BD2163" otype="Entity" vid="AFF342C5-4AC4-9B03-515F-0C03F5A255D5">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="2420" y="462" width="245" height="102"/>
+<bounds x="2420" y="462" width="253" height="140"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0DF9A0D3-B51C-3824-D7E1-D446B1009BD9" otype="Entity" vid="215605C6-26F0-8032-85A5-2772D2C465EE">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -37,6 +37,10 @@
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="49631CB5-728F-E660-DD79-60D1E5B44603" otype="Entity" vid="345FEB78-E012-8E0A-A52A-A33C75C61BCE">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="845" y="486" width="243" height="112"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6C27B9AD-D85B-822E-555D-261B74DC3E56" otype="Entity" vid="1E37DCCE-54BD-1195-BD4D-001ABCB88FB2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="2710" y="1457" width="337" height="115"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="793B16AE-99B3-601A-1B32-AB89AD7AA653" otype="Entity" vid="9472A3A0-BD50-EB64-0A0E-E14E4B674E2E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -153,8 +157,8 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2232" y="266"/>
-<point x="2478" y="462"/>
+<point x="2226" y="266"/>
+<point x="2462" y="462"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="689679D3-7B93-76C0-A5CF-F925F86FDFDF" otype="Relation" vid_source="D6F60CF5-E3D5-6A97-DB61-CAC362B42346" vid_target="CBE7A6C1-B5E3-E995-4AAC-0E015CE027B3">
@@ -180,7 +184,7 @@
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="2497" y="564"/>
+<point x="2497" y="602"/>
 <point x="2497" y="904"/>
 </points>
 </Connector>
