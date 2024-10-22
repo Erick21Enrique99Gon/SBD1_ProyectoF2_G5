@@ -40,14 +40,29 @@
 <dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_terminal" id="3C617EA1-D1F1-87C1-7EA9-6EAD4F3B77DF">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:37:57 UTC</createdTime>
+<generatorID>D8363B58-3F4F-BDA2-CBC3-206C0B8A2A3F</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+</engineerTo>
+<referedAttribute>E2405D4D-BBB6-5E38-069E-EEB45CCC6D0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B374BC1A-56B4-4982-0F9B-6E6C9342B0BF" name="PuertaEmbarque PK">
 <createdBy>erick</createdBy>
 <createdTime>2024-10-21 05:04:12 UTC</createdTime>
 <ownerDesignName>Proyecto2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

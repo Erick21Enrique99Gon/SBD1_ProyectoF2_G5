@@ -127,6 +127,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_aerolinea" id="E4EBEFB0-5ABD-E9DA-99DB-6681B96803AD">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:24:52 UTC</createdTime>
+<generatorID>54951A57-2B77-A8FB-30F3-A298460FAEAB</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+</engineerTo>
+<referedAttribute>90F45D9C-5B98-DB62-71C7-831E89F8AD67</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="FF86F461-6720-F4DF-FA83-1DEAB3C095BA" name="Avion PK">

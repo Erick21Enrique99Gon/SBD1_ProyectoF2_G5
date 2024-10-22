@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E1D2BDC-C188-264B-9A9C-2BCA58FA62BE" name="Tarifa">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:46 UTC</createdTime>
+<generatorID>ECE7E39D-1B31-2C33-55D0-88C16BA81A3C</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tarifa" id="9F8FF9F4-C059-5168-BB79-7E84B465BAD4">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:46 UTC</createdTime>
+<generatorID>957805FE-0294-F3BE-C2F7-AF3829442CB5</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clase" id="3968490F-395C-915C-1273-0399366B625E">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:46 UTC</createdTime>
+<generatorID>0052491A-2E49-CC71-2BC3-9679C89F5D97</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="3FD0D3F0-23A8-C512-63B9-E3AC9417DB53">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:46 UTC</createdTime>
+<generatorID>C01504AB-CE3C-3DB8-1B5C-524C48391A65</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vuelo_id_vuelo" id="B4F3F224-F466-3927-6C3F-27D5109FCB74">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:46 UTC</createdTime>
+<generatorID>EA4D81D5-A5C7-C3D1-6867-E69C53BE082C</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="197EBBB1-78B6-C056-5331-805D51B26927" referredColumn="0A0534B7-3079-F826-17C9-1166B3F1B7AE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4255A08-5BAB-A3BC-08C5-0DDA29A96FE5" name="Tarifa_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:46 UTC</createdTime>
+<generatorID>3362AF19-E724-B1E6-3178-AC10F908FFD9</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F8FF9F4-C059-5168-BB79-7E84B465BAD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19C3A5A0-5290-BD04-9A19-9303AECCF318" name="Tarifa_Vuelo_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:46 UTC</createdTime>
+<generatorID>5D270586-8E1C-4C5B-A595-218A7E453ADA</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4F3F224-F466-3927-6C3F-27D5109FCB74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

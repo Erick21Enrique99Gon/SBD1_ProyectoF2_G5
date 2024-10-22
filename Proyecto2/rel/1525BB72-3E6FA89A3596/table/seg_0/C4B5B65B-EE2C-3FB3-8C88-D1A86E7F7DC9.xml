@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4B5B65B-EE2C-3FB3-8C88-D1A86E7F7DC9" name="Reserva">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>885A1AB9-E8F7-7491-0BAE-90E079AB0075</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_reserva" id="1C0A26E2-469A-3987-9FA3-9BAB8BD359FD">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>CCD4B3DB-CF27-180D-6B1D-F682B31C84B4</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="C5E6BD5F-062C-A747-43F7-C606510A5D9B">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>3C285837-6CE4-BCAC-6D9E-03492CB123AF</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="3BBA157A-CBBD-4464-BA98-1184F8C98108">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>F1227BBE-BD5A-C04C-3DDA-868B5A6668FC</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="433F107F-A091-F33E-8FE9-0059374EA7A8" name="Reserva_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>A3E040DC-08FD-E4DC-D83D-D5DB933A869B</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C0A26E2-469A-3987-9FA3-9BAB8BD359FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

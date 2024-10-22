@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="38150315-56F9-F18D-B8AF-6C0511DED975" containerWithKeyObject="962433C3-E4BA-5A34-D773-AECE06216127" localFKIndex="78568373-D393-6C42-4B02-ED31257ADA20" name="Rutas_Aeropuerto_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:46 UTC</createdTime>
+<generatorID>355663ED-2BD3-0B99-1D5F-BB9567BC6E81</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<referredTableLongName>Aeropuerto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B059FA9D-D405-72A1-5108-6D2BE6A1131B</referredTableID>
+<keyObject>BB70D956-A6ED-6A08-26FE-95550BFDC7A3</keyObject>
+<referredKeyID>BB70D956-A6ED-6A08-26FE-95550BFDC7A3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_aeropuerto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

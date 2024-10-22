@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56F930BD-E1A8-3BEB-CBAB-E6E5D70A4FDB" name="Empleados">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>183667CB-EC28-9A86-AB1F-57FCB2AAD205</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="1A492747-05D2-AF36-3424-6A48CE8FB216">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>358C9D6D-EB49-1ACB-506B-459775F30CEC</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3554AA50-70FE-3C3B-AC56-81D4523042DE">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>1E5DE070-6C86-CCF4-A9BE-1E5CA93EE2F0</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="194CAB79-427B-4E6C-817B-4E07A21B79F1">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>0CDF3F1E-903A-47E8-51B9-F8FAB85F7449</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="0D27ED22-A0EE-3625-3974-405AD6791400">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>BF890E73-2B4F-2BBF-9176-C4F0A4F052A6</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="EE73D5A6-0497-CA59-FAEB-A484302C450F">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>DFF71125-77CD-A785-6926-8CF55DB86CDD</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="38BAC613-05DA-E1C6-E779-59CBA0C37192">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>74B2B1E1-1B3E-CCB9-A56F-A6D09A03D032</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacimiento" id="7C9883FA-4B77-2598-DE30-09DA42F025CC">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>BB94CE10-0314-5FED-495A-C30A85831FFE</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contratado" id="1BF7D32A-F891-FD92-CD17-AECAD475C9B6">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>FB03DA9A-BF17-6083-2511-09284B86A9C3</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="F0EF1A24-5DE8-3953-39E7-742382E930BE">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>8FCFF547-C91F-C329-32D4-9E2DA12A5AA2</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aerolinea_id_aerolinea" id="46E87252-117D-5F71-9DF8-36D02D77182E">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>605EC0F9-1AF5-E5C6-131F-EF35F82B3C6F</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9A5A5AD-EA3D-4424-854D-346C7C8B3AE1" referredColumn="8ED21FE8-8DAF-7019-C80E-342C0238FF16"/>
+</associations>
+</Column>
+<Column name="Cargo_id_cargo" id="774D40CB-70D9-E792-0C7D-80E236E0F766">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>144C769D-8FB7-9568-74A9-2C179A96102B</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6AAEFA0-53FA-A8B4-97AD-16DE8B6A1E72" referredColumn="2526FE78-E8B2-20DD-32A0-A87E6615B02C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87AEA7CF-4063-FE1D-A23B-5D251F13188D" name="Empleados_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>E68CCC31-1A08-8FBD-6DAE-DB97EB67A859</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A492747-05D2-AF36-3424-6A48CE8FB216"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4232A2DA-2320-C49D-D255-A20AFEBCCC9F" name="Empleados_Aerolinea_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:46 UTC</createdTime>
+<generatorID>A2106037-5E20-42B6-307D-C7FC3A10A048</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46E87252-117D-5F71-9DF8-36D02D77182E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1466A0C8-EA23-644A-E22B-7B870D70100E" name="Empleados_Cargo_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:46 UTC</createdTime>
+<generatorID>79F07426-4512-16FF-2820-3572156859AD</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="774D40CB-70D9-E792-0C7D-80E236E0F766"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

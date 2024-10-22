@@ -141,6 +141,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_cargo" id="144C769D-8FB7-9568-74A9-2C179A96102B">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-21 21:42:53 UTC</createdTime>
+<generatorID>79F07426-4512-16FF-2820-3572156859AD</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+</engineerTo>
+<referedAttribute>FBA294A1-172D-AD8F-F0F8-4BED996C4A96</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E68CCC31-1A08-8FBD-6DAE-DB97EB67A859" name="Empleados PK">

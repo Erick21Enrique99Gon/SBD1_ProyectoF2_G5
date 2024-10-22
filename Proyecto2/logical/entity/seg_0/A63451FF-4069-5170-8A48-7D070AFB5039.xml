@@ -22,8 +22,9 @@
 <engineerTo>
 <item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_aeropuerto" id="06E67E8C-EE51-D6AE-02CB-49861F5FD457">
@@ -40,5 +41,33 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nombre" id="F44B9B74-949D-6FA6-3D86-2E7210EF198A">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:47:40 UTC</createdTime>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ECC568C2-FEF6-7E02-EAB3-B76185A36760" name="Terminal PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:37:56 UTC</createdTime>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1525BB72-52E6-AB1B-C3B2-3E6FA89A3596" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E2405D4D-BBB6-5E38-069E-EEB45CCC6D0C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10771319-04BD-5C31-94B6-DD65EE006A51" name="Avion">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>793B16AE-99B3-601A-1B32-AB89AD7AA653</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_avion" id="46B40B0E-6C31-706D-745D-EBB336BE2A04">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>2F1974AD-22D0-0A14-FDF8-EC40DB609CD3</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="E6A07FA4-21AF-2EAD-6E70-32A6D1AFC9DD">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>6ED14211-C337-2EFB-9DB7-7494CDA0A522</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="1FB5DF1C-F094-2CCA-121B-09CD88ABAC71">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>620E099B-07AD-F383-99C8-7E6F4819AA72</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidad" id="BD0B8152-5EBE-1DC9-672F-67E234221708">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>3F5A9BE0-8E37-90C9-ABE8-41E0976D891C</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="4EC31FDD-83C5-9D0B-E18B-B89AA5770CB9">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>7FD54FF3-4251-914F-1F41-258AB64D393D</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alcance" id="1454352A-1D72-390E-0F21-84071D28E6FD">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>90AF8E8E-8879-371D-58C4-05AFC54E1CB2</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Asientos_Primera_Clase" id="EA6977A4-3FAE-FB63-589A-FCA45B740EB1">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>46ED0ED6-758A-09E0-4975-A185CC1C353E</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Asientos_Segunda_Clase" id="F2B25FA4-8BAE-E3C1-B348-6F63AA5B5F72">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>1467CE13-C449-0407-2537-FA035325AD72</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Asientos_Tercera_Clase" id="D8092EDF-37FB-23C8-C7A2-06694E8B1433">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>F17B8CD7-FD1B-75FB-9AE3-420E8BECDDBD</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aerolinea_id_aerolinea" id="59B19868-FCCA-D58C-315D-E66276682F60">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>E4EBEFB0-5ABD-E9DA-99DB-6681B96803AD</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21A3271D-00BA-D2EB-2E00-3219C57D2B29" referredColumn="8ED21FE8-8DAF-7019-C80E-342C0238FF16"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A6CC3DE-7AF1-C4DE-DDA6-516EB7D78ACE" name="Avion_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:45 UTC</createdTime>
+<generatorID>FF86F461-6720-F4DF-FA83-1DEAB3C095BA</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46B40B0E-6C31-706D-745D-EBB336BE2A04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E36F21EC-296C-0BDC-7809-17638C4C6BCD" name="Avion_Aerolinea_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:46 UTC</createdTime>
+<generatorID>54951A57-2B77-A8FB-30F3-A298460FAEAB</generatorID>
+<ownerDesignName>Proyecto2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59B19868-FCCA-D58C-315D-E66276682F60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
